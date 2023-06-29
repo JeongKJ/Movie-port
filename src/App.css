@@ -1,0 +1,316 @@
+body{
+  width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+}
+div#box{
+  margin: 0 auto;
+  width: 1920px;
+}
+div#box>h2{
+  text-align: center;
+  font-size: 45px;
+  background-color: #1b1b1b;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#box>#imgwrap{
+
+  width: 100%;
+  margin: 0 auto;
+  background-color: #1b1b1b;
+}
+#imgwrap>h3:first-of-type{
+  justify-content: center;
+  font-size: 20px;
+  color: #fff;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.837);
+  display: flex;
+  align-items: center;
+}
+#imgwrap>ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.837);
+}
+#imgwrap>ul>li{
+  width: 9%;
+  margin-bottom: 20px;
+}
+#imgwrap>ul>li>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+}
+#secondpage>.secondwrap{
+  padding-top: 50px;
+}
+#secondpage>.secondwrap>ul{
+  display: flex;
+  flex-wrap: nowrap;
+}
+#secondpage>.secondwrap>ul:first-of-type{
+  justify-content: space-around;
+}
+#secondpage>.secondwrap>ul:first-of-type>li{
+  background-color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  height: 350px;
+}
+#secondpage>.secondwrap>ul:first-of-type>li>img{
+  border-radius: 10px;
+}
+#secondpage>.secondwrap>ul:first-of-type>li:first-of-type>img{
+  width: 100%;
+  height: 100%;
+}
+#secondpage>.secondwrap>ul:first-of-type{
+  margin-bottom: 50px;
+}
+#secondpage>.secondwrap>h3{
+  text-align: center;
+  font-size: 20px;
+  color: red;
+  margin-bottom: 50px;
+}
+#secondpage>.secondwrap>ul:first-of-type>li:nth-of-type(2){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#secondpage>.secondwrap>ul:first-of-type>li:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#secondpage>.secondwrap>ul:nth-of-type(2){
+  margin-bottom: 50px;
+  font-size: 20px;
+  justify-content: space-around;
+  display: none;
+}
+#secondpage>.secondwrap>ul:nth-of-type(2)>li{
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+#secondpage>.secondwrap>ul:nth-of-type(2)>li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#secondpage>.secondwrap>.place>ul{
+  display: flex;
+  padding-top: 25px;
+  padding-left: 50px;
+  flex-wrap: wrap;
+}
+#secondpage>.secondwrap>.place>ul>li{
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+#secondpage>.secondwrap>.place>ul>li:nth-of-type(5){
+  margin-right: 900px;
+}
+#secondpage>.secondwrap>.place>h4{
+  padding-left: 50px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.837);;
+  color: #fff;
+  font-weight: bold;
+}
+#secondpage>.secondwrap>.place>button{
+  background-color: #EC6012;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 80px;
+  width: 100%;
+  border: none;
+}
+.clicked{
+  background-color: #ed5909ac;
+  color: #fff;
+  border: 1px solid #EC6012;
+}
+
+
+#thirdpage>#thirdwrap>ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#thirdpage>#thirdwrap>ul:first-of-type {
+  justify-content: space-around;
+}
+
+#thirdpage>#thirdwrap>ul:first-of-type>li {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  height: 350px;
+}
+
+#thirdpage>#thirdwrap>ul:first-of-type>li>img {
+  border-radius: 10px;
+}
+
+#thirdpage>#thirdwrap>ul:first-of-type>li:first-of-type>img {
+  width: 100%;
+  height: 100%;
+}
+#thirdpage>#thirdwrap>ul:first-of-type>li:nth-of-type(2)>img {
+  width: 100%;
+  height: 100%;
+}
+#thirdpage>#thirdwrap>ul:first-of-type {
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+#thirdpage>#thirdwrap>ul:first-of-type>li:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#thirdpage>#thirdwrap>ul:first-of-type>li:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#thirdpage>#thirdwrap>ul:nth-of-type(2){
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+#thirdpage>#thirdwrap>ul:nth-of-type(2)>li{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 45%;
+  margin-bottom: 50px;
+  align-items: center;
+}
+#thirdpage>#thirdwrap>ul:nth-of-type(2)>li>dfn{
+  font-size: 22px;
+  margin-right: 50px;
+}
+#thirdpage>#thirdwrap>ul:nth-of-type(2)>li:nth-of-type(3)>dfn{
+  margin-left: -25px;
+}
+#thirdpage>#thirdwrap>ul:nth-of-type(2)>li>span{
+  font-size: 15px;
+  text-align: center;
+}
+#thirdpage>#thirdwrap>ul:nth-of-type(2)>li>span>button{
+  margin-right: 15px;
+}
+
+
+
+#lastpage{
+  display: none;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+#lastpage>ul{
+  display: block;
+  width: 100%;
+  background-color: #fff;
+}
+#lastpage>ul>li{
+  border: 1px solid;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+#lastpage>ul>li:first-of-type{
+  border-top: none;
+}
+#lastpage>ul>li>figure{
+  /* width: 50%; */
+  margin-right: 50px;
+}
+#lastpage>ul>li>figure>img{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+#lastpage>ul>li>figure>figcaption{
+  text-align: center;
+}
+#lastpage>ul>li>dl{
+  display: flex;
+  flex-wrap: wrap;
+}
+#lastpage>ul>li>dl>dfn{
+  width: 50%;
+}
+#lastpage>ul>li>dl>dfn>dd{}
+.submit {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: #EC6012;
+  color: #fff;
+}
+#check{
+  display: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  position: relative;
+}
+#check>p{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+#check>input{
+  width: 40%;
+  height: 30px;
+  margin-left: 30%;
+}
+#check>button{
+  height: 35px;
+}
+#check>ul{
+  width: 50%;
+  display: none;
+  margin-left: 57%;
+}
+#check>ul>li{
+  height: 20px;
+  border: 1px solid;
+  width: 30%;
+ background-color: #fff;
+}
